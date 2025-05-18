@@ -1,0 +1,75 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(20px);
+     backdrop-filter: blur(20px);
+     border: white 2px solid;
+     border-radius: 10px;
+     height: 400px;
+}
+
+#vf, button{
+    width: 250px;
+    font-size: 12px;
+    padding: 14px;
+    border-radius: 100px;
+    margin: 8px;
+}
+
+#vf{
+    border: none;
+    background-color: transparent;
+    border: 2px white solid;
+
+    
+}
+
+#vf::placeholder{
+    color: white;
+}
+
+p{
+    font-size: 12px;
+}
+
+a{
+    font-size: 12px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('bg.jpg');
+}
+
+span, label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+span{
+    width: 250px;
+}
+
+p, a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    font-weight: 600;
+}
+
+img{
+    position: relative;
+    top: -51px;
+}
+
